@@ -4,4 +4,9 @@
 # Ada Library Information
 *.ali
 
+# I have the project configured to generate the executable to the main
+# project directory, for current directory conistency when running 
+# from GNAT Studio and manually. We do not want this added to the repo.
+main
+ 
 obj/
